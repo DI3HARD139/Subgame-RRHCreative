@@ -1,0 +1,27 @@
+Digilines Stuff
+===============
+
+
+License:
+Code - LGPL v3 or later (contains some code from mesecons and digilines)
+Textures - CC BY-SA 3.0 Generic (contains modified versions of textures from mesecons and digilines)
+
+
+Depends:
+Required: digilines (base only) and mesecons (base only)
+Only needed for craft recipes: default and mesecons_luacontroller
+
+
+How to use digilines buttons:
+Connect to a digiline (or digimese), right-click, and set a channel and message.
+When the button is pressed (right-click), it will send that message on that channel, over digilines.
+Note that the settings cannot be changed after setting - you must dig and re-place the button to do so.
+
+
+How to use digimese:
+It conducts digilines signals (like digilines) in all directions (like mese). That's about it, really.
+
+
+How to use the digilines player detector:
+Set a channel and radius (radius must be a number >0 and <10 - anything invalid will be ignored and "6" useid instead).
+Every second while a player is within the radius, a table listing the players in range will be sent via digilines on the chosen channel.

@@ -1,0 +1,9 @@
+-- -*- lua -*-
+
+local f, env, args = ...
+
+if(args[1] == "--help") then
+   print("Usage: digiline mychannel message")
+else
+   digiline_send(unpack(args))
+end

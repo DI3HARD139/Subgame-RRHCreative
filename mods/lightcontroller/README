@@ -1,0 +1,8 @@
+This mod adds two nodes that can be used to easily set up traffic lights.
+
+
+Use:
+
+* Install a normal traffic light setup, with the main street's lights on the "main" channel and the side street's lights on "side".
+* Place the master unit on a minor street approach and connect it with digilines
+* (4+-way intersections only) Place a slave unit on all other minor street approaches, and connect them with digilines to the master unit, but NOT to the lights
